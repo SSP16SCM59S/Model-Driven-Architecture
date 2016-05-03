@@ -115,11 +115,11 @@ public static void main(String args[])
 		
 		switch(ch)
 		{
-		case 0: System.out.println("------Open(String y,String p,float a)------");
-		System.out.println("Enter value of y");
-		String id = sc2.next();
+		case 0: System.out.println("------Open(String p,String y,float a)------");
 		System.out.println("Enter value of p");
 		String pin = sc2.next();
+		System.out.println("Enter value of y");
+		String id = sc2.next();
 		System.out.println("Enter value of a");
 
 		float bal = sc2.nextFloat();
@@ -183,11 +183,11 @@ Scanner sc2 = new Scanner(System.in);
 		
 		switch(ch)
 		{
-		case 0:System.out.println("------Open(int y,int p,int a)------");
-		System.out.println("Enter value of y");
-		int id = sc2.nextInt();
+		case 0:System.out.println("------Open(int p,int y,int a)------");
 		System.out.println("Enter value of p");
 		int pin = sc2.nextInt();
+		System.out.println("Enter value of y");
+		int id = sc2.nextInt();
 		System.out.println("Enter value of a");
 		int bal = sc2.nextInt();
 		ob.OPEN(pin, id, bal);//calls open function of Account2

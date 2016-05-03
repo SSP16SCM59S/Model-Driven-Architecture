@@ -64,7 +64,7 @@ public class Account2
 			else
 			{
 				efsm_obj.attempts++;//Increase the no of attempts by 1
-				efsm_obj.incorrectPin(2);// Set max attempts to 3
+				efsm_obj.incorrectPin(2);// Set max attempts to 2
 			}
 		}
 		

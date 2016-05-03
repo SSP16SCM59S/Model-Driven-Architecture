@@ -10,7 +10,7 @@ public class Start extends States// this is the state at which user begins opera
 	
 	public void open()
 	{
-		System.out.println("reached start state");
+		//System.out.println("reached start state");
 		obj1.storeData();//stored data
 		obj.newState(1);//State is changed to Idle
 	}

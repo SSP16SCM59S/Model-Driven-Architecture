@@ -19,7 +19,7 @@ public class EFSM
 	}
 	
 	public void open()
-	{	System.out.println("reached efsm open");
+	{	//System.out.println("reached efsm open");
 		state.open();//Opens the account with this state
 	}
 	

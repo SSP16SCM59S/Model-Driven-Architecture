@@ -10,7 +10,7 @@ public class CheckPin extends States {
 	
 	public void incorrectPin(int max)
 	{
-		if(obj.attempts == max)
+		if(obj.attempts > max)
 		{
 			obj1.toomanyattemptsmsg();//Displays max attempts reached
 			obj.newState(1);//state is changed to Idle
